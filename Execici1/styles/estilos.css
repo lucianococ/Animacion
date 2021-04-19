@@ -1,0 +1,37 @@
+
+.cuadro{
+    width: 570px;
+    height: 490px; 
+    border: 1px solid red;  
+}
+.pelota{
+    width: 100px;
+    height: 100px;
+    background: rgb(240, 240, 60);
+    border-radius: 50%;
+    animation: pelotaX 9s linear 0s infinite alternate, pelotaY 2s linear 0s infinite alternate;
+    position: relative;
+  
+}
+
+
+@keyframes pelotaX{
+    0%{
+        left:0;
+    }
+   
+    100%{
+        left:470px;   
+    }
+}
+
+@keyframes pelotaY{
+    0%{
+        top:0; 
+    }
+   
+    100%{
+        top:400px;   
+    }
+}
+
